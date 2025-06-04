@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Link Task</title>
+  <style>
+    .gray-box {
+      background-color: #bebebe;
+      border: 1px solid black;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .white-box {
+      background-color: white;
+      border: 1px solid black;
+      width: 100%;
+      padding: 10px;  
+    }
+
+    a {
+      color: blue;
+      text-decoration: underline;
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- First box (Gray links box) -->
+  <div class="gray-box">
+    <p>Click any of the following links</p>
+    <a href="#New" target="_blank">Opens in New</a> |
+    <a href="#Self" target="_self">Opens in Self</a> |
+    <a href="#Parent" target="_parent">Opens in Parent</a> |
+    <a href="#Body" target="_top">Opens in Body</a>
+  </div>
+
+  <!-- Second box (Email box) -->
+  <div class="white-box">
+    <h2>Link to an Email Address</h2>
+    <p>To create a link that opens in the user's email program (to let them send a new email), use <code>mailto:</code> inside the href attribute:</p>
+    <a href="mailto:someone@gmail.com">Send email</a>
+  </div>
+
+</body>
+</html>
